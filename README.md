@@ -1,4 +1,4 @@
-# 🤖 Проєкт RoboCar
+# Проєкт RoboCar
 
 [![Platform](https://img.shields.io/badge/Platform-Arduino%20Nano-blue.svg)](https://www.arduino.cc/en/Main/ArduinoBoardNano)
 [![Framework](https://img.shields.io/badge/Framework-PlatformIO-orange.svg)](https://platformio.org/)
@@ -12,7 +12,7 @@
 
 ---
 
-## 📋 Огляд проєкту
+## Огляд проєкту
 
 Цей репозиторій містить повний робототехнічний проєкт для побудови та програмування керованого через Bluetooth автомобіля з використанням:
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 🚀 Швидкий старт
+## Швидкий старт
 
 ### Необхідні компоненти
 
@@ -45,26 +45,10 @@
 
 ### Встановлення
 
-1. **Clone the repository:**
+**Clone the repository:**
    ```bash
    git clone https://github.com/prof-Dm-Ageyev/Robo-Car.git
    cd Robo-Car
-   ```
-
-2. **Open in VS Code:**
-   ```bash
-   code RoboCar.code-workspace
-   ```
-
-3. **Build and upload firmware:**
-   ```powershell
-   cd RoboCar
-   pio run -t upload
-   ```
-
-4. **Test connection:**
-   ```powershell
-   pio device monitor
    ```
 
 ### First Run
@@ -79,7 +63,7 @@
 
 ---
 
-## ✨ Ключові можливості
+## Ключові можливості
 
 ### Базове керування
 
@@ -127,21 +111,6 @@
  Вперед / Назад / Поворот ліворуч / Поворот праворуч / Зупинка (мʼякий `S` або жорсткий `K`)
  Діагональні рухи: вперед-ліворуч (`G`), вперед-праворуч (`H`), назад-ліворуч (`I`), назад-праворуч (`J`)
  10 рівнів швидкості (цифри '0'–'9') + миттєвий максимум ('q')
-
-**Автоматичне калібрування (Line Following):**
-
-> [!IMPORTANT]
-> Наявна за умови компіляції з `#define CALIBRATION 1`
-
- Система PID-контролера для руху вздовж чорної лінії
- 2 інфрачервоні датчики лінії (A0 та A4)
- Автоматичне визначення коефіцієнтів компенсації швидкості моторів
- Збереження калібрування в EEPROM
- Окреме калібрування для прямого та зворотного руху
-
-> [!NOTE]
-> Детальна інструкція з калібрування: [CALIBRATION_GUIDE.md](./CALIBRATION_GUIDE.md)
-
 
 ---
 
@@ -225,7 +194,7 @@
 
 Сценарії можна завантажувати як через Bluetooth, так і через Serial Monitor (`pio device monitor`).
 
-## 🤝 Участь у розробці
+## Участь у розробці
 
 Внески вітаються! Будь ласка, відкривайте issues, запити на функції або pull requests.
 
@@ -238,13 +207,7 @@
 
 ---
 
-## 📄 Ліцензія
-
-Цей проєкт ліцензовано за ліцензією MIT — див. файл [`LICENSE`](LICENSE) для деталей.
-
----
-
-## 📧 Контакти
+## Контакти
 
 **Dmytro Ageyev**  
 Email: <dmytro.ageyev@gmail.com>
@@ -253,7 +216,7 @@ Email: <dmytro.ageyev@gmail.com>
 
 ---
 
-## 🙏 Подяки
+## Подяки
 
 - Команді PlatformIO за чудову платформу розробки
 - Спільноті Arduino за розширені бібліотеки та підтримку
