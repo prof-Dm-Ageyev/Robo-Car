@@ -76,6 +76,12 @@
 - **Скриптований рух:** Надсилання послідовностей команд одним рядком
 - **Команди затримок:** 11 варіантів таймінгу (25мс до 50с)
 
+### Приклади роботів
+| RoboCar 1 | RoboCar 2 |
+| --- | --- |
+| <p align="center"> <img src="img/RoboCar_1.jpg" height="250"> </p> | <p align="center"> <img src="img/2RoboCar_1.jpg" height="250"> </p> |
+| <p align="center"> <img src="img/RoboCar_2.jpg" height="250"> </p> | <p align="center"> <img src="img/2RoboCar_2.jpg" height="250"> </p> |
+| <p align="center"> <img src="img/RoboCar_3.jpg" height="250"> </p> | <p align="center"> <img src="img/2RoboCar_3.jpg" height="250"> </p> |
 ---
 
 ## 1. Пін-мапа
@@ -203,7 +209,6 @@
 - Дотримуйтесь існуючого стилю коду
 - Ретельно тестуйте перед відправкою PR
 - Оновлюйте документацію для нових функцій
-- Підтримуйте сумісність з обома режимами CALIBRATION
 
 ---
 
